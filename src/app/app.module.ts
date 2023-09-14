@@ -8,6 +8,8 @@ import { ParentComponent } from './ParentToChildCommunication/parent/parent.comp
 import { ChildComponent } from './ParentToChildCommunication/child/child.component';
 import { Parent1Component } from './childToparentCommunication/parent1/parent1.component';
 import { Child1Component } from './childToparentCommunication/child1/child1.component';
+import { Parent2Component } from './childToParentUsingViewChild/parent2/parent2.component';
+import { Child2Component } from './childToParentUsingViewChild/child2/child2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +17,9 @@ import { Child1Component } from './childToparentCommunication/child1/child1.comp
     ParentComponent,
     ChildComponent,
     Parent1Component,
-    Child1Component
+    Child1Component,
+    Parent2Component,
+    Child2Component
   ],
   imports: [
     BrowserModule,
